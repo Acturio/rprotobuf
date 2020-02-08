@@ -3,6 +3,15 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/rprotobuf/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/rprotobuf/issues/#1}{##1}}
 
+\section{Changes in RProtoBuf version 0.4.15.1 (2020-xx-yy)}{
+  \itemize{
+    \item Development pre-release of 0.4.16 to facilitate testing
+    \item The (to the best of our knowledge) unused minimal RPC
+    mechanism has been deprecated, removing one method and one class as
+    well as the import of the \pkg{RCurl} package.
+  }
+}
+
 \section{Changes in RProtoBuf version 0.4.15 (2020-02-08)}{
   \itemize{
     \item Repeated Message and Group objects are now returned correctly
